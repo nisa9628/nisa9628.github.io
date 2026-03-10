@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -74,8 +74,9 @@
                 <a href="#home" class="hover:text-pink-500 transition-colors">Beranda</a>
                 <a href="#about" class="hover:text-pink-500 transition-colors">Profil</a>
                 <a href="#skills" class="hover:text-pink-500 transition-colors">Keahlian</a>
+                <a href="#awards" class="hover:text-pink-500 transition-colors">Penghargaan</a>
+                <a href="#testimonials" class="hover:text-pink-500 transition-colors">Testimoni</a>
                 <a href="#education" class="hover:text-pink-500 transition-colors">Pendidikan</a>
-                <a href="#contact" class="hover:text-pink-500 transition-colors">Kontak</a>
             </div>
 
             <button class="md:hidden text-pink-600" onclick="toggleMenu()">
@@ -87,6 +88,8 @@
             <a href="#home" onclick="toggleMenu()" class="font-medium text-gray-600">Beranda</a>
             <a href="#about" onclick="toggleMenu()" class="font-medium text-gray-600">Profil</a>
             <a href="#skills" onclick="toggleMenu()" class="font-medium text-gray-600">Keahlian</a>
+            <a href="#awards" onclick="toggleMenu()" class="font-medium text-gray-600">Penghargaan</a>
+            <a href="#testimonials" onclick="toggleMenu()" class="font-medium text-gray-600">Testimoni</a>
             <a href="#education" onclick="toggleMenu()" class="font-medium text-gray-600">Pendidikan</a>
             <a href="#contact" onclick="toggleMenu()" class="font-medium text-gray-600">Kontak</a>
         </div>
@@ -109,8 +112,8 @@
                     <a href="https://wa.me/6283866583535" target="_blank" class="bg-pink-500 text-white px-8 py-4 rounded-2xl font-bold shadow-lg shadow-pink-200 hover:scale-105 transition-transform flex items-center justify-center gap-2">
                         Hubungi Saya <i data-lucide="message-circle" size="20"></i>
                     </a>
-                    <a href="#skills" class="bg-white border-2 border-pink-100 text-pink-600 px-8 py-4 rounded-2xl font-bold hover:bg-pink-50 transition-colors text-center">
-                        Lihat Keahlian
+                    <a href="#awards" class="bg-white border-2 border-pink-100 text-pink-600 px-8 py-4 rounded-2xl font-bold hover:bg-pink-50 transition-colors text-center">
+                        Lihat Prestasi
                     </a>
                 </div>
             </div>
@@ -119,7 +122,6 @@
                 <div class="absolute -z-10 w-72 h-72 bg-pink-300 rounded-full blur-3xl opacity-40 animate-pulse-slow"></div>
                 
                 <div class="relative w-72 h-72 md:w-96 md:h-96 group">
-                    <!-- Elemen Hati Melayang -->
                     <div class="absolute -top-10 left-10 text-pink-400 animate-float-slow opacity-60">
                         <i data-lucide="heart" fill="currentColor" size="32"></i>
                     </div>
@@ -137,7 +139,6 @@
                             src="https://i.ibb.co.com/zWvr0PB9/image.jpg" 
                             alt="[Foto Profil Kariematunnisa]"
                             class="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-500"
-                            onerror="this.src='https://via.placeholder.com/600x600/FFC0CB/FFFFFF?text=Kariematunnisa'"
                         >
                         <div class="absolute inset-0 bg-gradient-to-t from-pink-500/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                             <i data-lucide="heart" class="text-white animate-ping-soft" size="64" fill="white"></i>
@@ -162,7 +163,7 @@
                 <h3 class="text-4xl md:text-5xl font-bold text-gray-900">Tentang Kariematunnisa.</h3>
                 <div class="space-y-4 text-lg text-gray-600 leading-relaxed">
                     <p>
-                        Nama saya <strong>Kariematunnisa</strong>. Lahir di Indramayu pada tahun <strong>2008</strong>. Saya adalah pribadi yang kreatif dan memiliki ketertarikan mendalam pada dunia desain visual. Melalui portofolio ini, saya ingin membagikan perjalanan dan kemampuan yang telah saya asah selama masa pendidikan.
+                        Nama saya <strong>Kariematunnisa</strong>. Lahir di Indramayu pada tahun <strong>2008</strong>. Saya adalah pribadi yang kreatif dan memiliki ketertarikan mendalam pada dunia desain visual. Melalui portofolio ini, saya ingin membagikan perjalanan, kemampuan, serta apresiasi yang telah saya raih.
                     </p>
                 </div>
                 
@@ -186,6 +187,110 @@
         </div>
     </section>
 
+    <!-- Awards & Certificates Section -->
+    <section id="awards" class="py-20 bg-pink-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 space-y-4">
+                <div class="inline-flex items-center gap-2 text-pink-500 font-bold uppercase tracking-widest text-sm">
+                    <i data-lucide="award" size="18"></i> Penghargaan
+                </div>
+                <h3 class="text-4xl font-bold text-gray-900">Sertifikat & Apresiasi</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="group bg-white p-8 rounded-3xl shadow-sm border border-pink-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-16 h-16 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-500 mb-6 group-hover:bg-pink-500 group-hover:text-white transition-colors">
+                        <i data-lucide="medal" size="32"></i>
+                    </div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="text-2xl font-bold text-gray-800">Penghargaan Paskibra</h4>
+                        <span class="bg-pink-100 text-pink-600 text-xs font-bold px-3 py-1 rounded-full">2023</span>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-4">Apresiasi atas dedikasi luar biasa sebagai anggota pasukan pengibar bendera pada upacara peringatan <strong>17 Agustus 2023</strong>.</p>
+                    <div class="inline-flex items-center gap-2 text-pink-600 font-semibold">
+                        <i data-lucide="check-circle" size="18"></i> Terverifikasi
+                    </div>
+                </div>
+
+                <div class="group bg-white p-8 rounded-3xl shadow-sm border border-pink-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-16 h-16 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-500 mb-6 group-hover:bg-pink-500 group-hover:text-white transition-colors">
+                        <i data-lucide="star" size="32"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-800 mb-2">Sertifikat Pramuka</h4>
+                    <p class="text-gray-600 leading-relaxed mb-4">Penghargaan atas partisipasi aktif dan pengabdian dalam kegiatan kepramukaan, memperkuat jiwa kepemimpinan dan kemandirian.</p>
+                    <div class="inline-flex items-center gap-2 text-pink-600 font-semibold">
+                        <i data-lucide="check-circle" size="18"></i> Terverifikasi
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 space-y-4">
+                <div class="inline-flex items-center gap-2 text-pink-500 font-bold uppercase tracking-widest text-sm">
+                    <i data-lucide="message-square" size="18"></i> Testimoni
+                </div>
+                <h3 class="text-4xl font-bold text-gray-900">Apa Kata Mereka</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Testi 1 -->
+                <div class="bg-pink-50 p-8 rounded-3xl border border-pink-100 relative">
+                    <div class="absolute -top-4 left-8 bg-pink-500 text-white p-2 rounded-xl shadow-lg">
+                        <i data-lucide="quote" size="20"></i>
+                    </div>
+                    <p class="text-gray-600 italic mb-6 mt-2 text-lg">
+                        "Kariematunnisa memiliki selera warna yang sangat bagus. Hasil desainnya selalu terlihat segar dan modern."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center font-bold text-pink-600">R</div>
+                        <div>
+                            <p class="font-bold text-gray-800">Rina S.</p>
+                            <p class="text-xs text-gray-500 uppercase font-bold tracking-wider">Teman Sekolah</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testi 2 -->
+                <div class="bg-pink-50 p-8 rounded-3xl border border-pink-100 relative">
+                    <div class="absolute -top-4 left-8 bg-pink-500 text-white p-2 rounded-xl shadow-lg">
+                        <i data-lucide="quote" size="20"></i>
+                    </div>
+                    <p class="text-gray-600 italic mb-6 mt-2 text-lg">
+                        "Disiplin dan bertanggung jawab. Sangat terlihat dari bagaimana ia menyelesaikan proyek desain tepat waktu."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center font-bold text-pink-600">A</div>
+                        <div>
+                            <p class="font-bold text-gray-800">Agus Kurnia</p>
+                            <p class="text-xs text-gray-500 uppercase font-bold tracking-wider">Rekan Organisasi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testi 3 -->
+                <div class="bg-pink-50 p-8 rounded-3xl border border-pink-100 relative">
+                    <div class="absolute -top-4 left-8 bg-pink-500 text-white p-2 rounded-xl shadow-lg">
+                        <i data-lucide="quote" size="20"></i>
+                    </div>
+                    <p class="text-gray-600 italic mb-6 mt-2 text-lg">
+                        "Sangat kreatif dalam eksplorasi visual. Desain post Instagram yang dibuatnya meningkatkan daya tarik konten kami."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center font-bold text-pink-600">L</div>
+                        <div>
+                            <p class="font-bold text-gray-800">Lina M.</p>
+                            <p class="text-xs text-gray-500 uppercase font-bold tracking-wider">Pemilik Olshop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Pendidikan Section -->
     <section id="education" class="py-20 bg-pink-50">
         <div class="container mx-auto px-6">
@@ -197,7 +302,6 @@
             </div>
 
             <div class="max-w-4xl mx-auto space-y-8">
-                <!-- MI -->
                 <div class="flex">
                     <div class="flex flex-col items-center mr-6">
                         <div class="w-10 h-10 bg-white border-2 border-pink-200 rounded-full flex items-center justify-center z-10 shadow-sm">
@@ -206,13 +310,12 @@
                         <div class="w-0.5 h-full bg-pink-200 mt-2"></div>
                     </div>
                     <div class="pb-8 pt-1 flex-1">
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-pink-100 transition-transform hover:scale-[1.01]">
+                        <div class="bg-white p-6 rounded-2xl border border-pink-100 transition-transform hover:scale-[1.01]">
                             <span class="text-pink-500 font-bold text-xs">2014 - 2020</span>
                             <h4 class="text-xl font-bold mt-1 text-gray-800">MI TWT Bedeng Satu</h4>
                         </div>
                     </div>
                 </div>
-                <!-- SMP -->
                 <div class="flex">
                     <div class="flex flex-col items-center mr-6">
                         <div class="w-10 h-10 bg-white border-2 border-pink-200 rounded-full flex items-center justify-center z-10 shadow-sm">
@@ -221,13 +324,12 @@
                         <div class="w-0.5 h-full bg-pink-200 mt-2"></div>
                     </div>
                     <div class="pb-8 pt-1 flex-1">
-                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-pink-100 transition-transform hover:scale-[1.01]">
+                        <div class="bg-white p-6 rounded-2xl border border-pink-100 transition-transform hover:scale-[1.01]">
                             <span class="text-pink-500 font-bold text-xs">2020 - 2023</span>
                             <h4 class="text-xl font-bold mt-1 text-gray-800">SMP Khas Kempek Cirebon</h4>
                         </div>
                     </div>
                 </div>
-                <!-- SMK -->
                 <div class="flex">
                     <div class="flex flex-col items-center mr-6">
                         <div class="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center z-10 text-white shadow-lg">
@@ -280,7 +382,7 @@
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-pink-900 text-white">
         <div class="container mx-auto px-6 text-center">
-            <h3 class="text-4xl font-bold mb-12">Hubungi Saya</h3>
+            <h3 class="text-4xl font-bold mb-12 text-white">Hubungi Saya</h3>
             <div class="flex flex-wrap justify-center gap-10">
                 <a href="https://instagram.com/nnyshaaaaa" target="_blank" class="flex flex-col items-center gap-2 hover:text-pink-300 transition-all hover:-translate-y-1">
                     <div class="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center mb-2"><i data-lucide="instagram"></i></div>
@@ -303,10 +405,8 @@
     </section>
 
     <script>
-        // Inisialisasi ikon
         lucide.createIcons();
 
-        // Efek navbar scroll
         window.onscroll = function() {
             const navbar = document.getElementById('navbar');
             if (window.scrollY > 50) {
@@ -318,7 +418,6 @@
             }
         };
 
-        // Menu mobile toggle
         function toggleMenu() {
             const menu = document.getElementById('mobile-menu');
             const icon = document.getElementById('menu-icon');
@@ -334,5 +433,4 @@
     </script>
 </body>
 </html>
-
 
